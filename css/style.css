@@ -17,7 +17,48 @@
   margin-left: 10%;
   margin-top: -10%;
   border-radius: 25px;
-  
+}
+
+/* card */
+.card {
+  background-image: url("../images/milano.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+  width: 100%;
+}
+
+.card-main {
+  background-color: white;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.beskrivendetekst-card {
+  width: 40vw;
+  background-color: white;
+  position: absolute;
+  padding: 4vw;
+  top: 35%;
+  z-index: 1;
+}
+
+.card-main p {
+  line-height: 1.5em;
+}
+
+.card-main h1 {
+  border-bottom: 0.1vw solid black;
+  width: 25vw;
+  padding-bottom: 15px;
+  font-size: 2.5rem;
+}
+.card-img {
+  width: 42%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 25%;
 }
 
 /* ---------------------------- */
@@ -29,7 +70,7 @@
   height: 50vw;
   width: 100%;
 }
-#beskrivendetekst {
+.beskrivendetekst {
   width: 40vw;
   background-color: white;
   padding: 4vw;
