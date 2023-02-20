@@ -1,3 +1,27 @@
+/* Lande */
+
+.lande {
+  background-image: url("../images/nice.jpg");
+  background-size: cover;
+}
+
+.lande-main {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15%;
+}
+
+.danmark {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: -10%;
+  border-radius: 25px;
+  
+}
+
+/* ---------------------------- */
+
 #baggrundsbillede {
   background-image: url("../images/barcelona2.jpg");
   background-size: cover;
