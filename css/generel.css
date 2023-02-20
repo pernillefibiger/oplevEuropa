@@ -1,0 +1,44 @@
+/* byer */
+/* restaurant */
+.farve {
+  background-color: #4b4b4b;
+  padding: 1em;
+}
+.farve h3 {
+  color: white;
+  padding-left: 2em;
+  font-size: 1.9vw;
+}
+.farve h2 {
+  color: white;
+}
+.farve p {
+  color: white;
+}
+
+/* bypas */
+.bypas h2 {
+  border-bottom: 0.1vw solid black;
+  width: 11vw;
+  padding-bottom: 15px;
+}
+
+/* Populære steder */
+/* .popular {
+  background-color: #4b4b4b;
+  padding: 1em;
+  padding-left: 2em;
+} */
+.popular img {
+  border-radius: 27px;
+}
+.popular h2 {
+  color: white;
+}
+.popular p {
+  color: white;
+}
+.popular h3 {
+  color: white;
+  padding-left: 2em;
+}
