@@ -1,3 +1,40 @@
+/* NAV */
+
+nav {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 3%;
+  margin-top: 1%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.logo img {
+  width: 60%;
+  margin-left: 60%;
+}
+
+.search img {
+  width: 60%;
+  margin-left: 60%;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #8c7d61;
+}
+
 /* byer */
 /* restaurant */
 .farve {
