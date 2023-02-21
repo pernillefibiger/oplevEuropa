@@ -74,9 +74,7 @@
   width: 40vw;
   background-color: white;
   padding: 4vw;
-  position: absolute;
-  z-index: 1;
-  top: 90%;
+  position: sticky;
 }
 
 #seveardigheder {
@@ -106,6 +104,12 @@
   width: 80%;
 }
 
+@media screen and (max-width: 400px) {
+  #seveardigheder {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* Anden seværdighed */
 .mulighed2 {
   display: flex;
@@ -161,3 +165,5 @@
   padding-left: 3em;
   margin-top: 3em;
 }
+
+/* byer */

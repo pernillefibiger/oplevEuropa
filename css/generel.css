@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* NAV */
 
 nav {
@@ -36,6 +37,9 @@ nav a:hover {
 }
 
 /* byer */
+=======
+/* single view */
+>>>>>>> 84da439 (idk)
 /* restaurant */
 .farve {
   background-color: #4b4b4b;
@@ -78,4 +82,9 @@ nav a:hover {
 .popular h3 {
   color: white;
   padding-left: 2em;
+}
+
+/* byer.html */
+#header_by {
+  background-image: url("../images/barcelona2.jpg");
 }
