@@ -1,8 +1,3 @@
-.Kort img {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
 .lande {
   background-image: url("../images/nice.jpg");
   background-size: cover;
@@ -21,25 +16,41 @@
   border-width: thin;
 }
 
-h2 {
-  position: absolute;
-  color: white;
-  font-size: 2.5rem;
-  top: 23px;
-  left: 126px;
-}
-
 .lande-main {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 15%;
-  gap: 0.8rem;
+  gap: 2.5rem;
+  margin-bottom: 20%;
 }
 @media (max-width: 1000px) {
   .lande-main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
+    gap: 3rem;
   }
+}
+.Kort {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Kort img {
+  width: 30rem;
+  height: 15rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-color: black;
+  text-decoration: solid;
+  font-size: 3rem;
 }
