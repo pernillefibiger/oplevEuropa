@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/generel.css" />
     <link rel="stylesheet" href="css/card.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.jpg" />
+    <script
+      src="https://kit.fontawesome.com/4c9d924f79.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Europa card</title>
   </head>
   <body class="card">
@@ -67,6 +71,39 @@
       </section>
       <section>
         <img src="images/turist.jpg" alt="turist" class="turist" />
+      </section>
+      <section>
+        <form>
+          <div class="row">
+            <div class="input-group">
+              <input type="text" id="navn" required />
+              <label for="navn"
+                ><i class="fa-solid fa-user"></i> Dit Navn</label
+              >
+            </div>
+            <div class="input-group">
+              <input type="text" id="nummer" required />
+              <label for="nummer"
+                ><i class="fa-solid fa-phone"></i> Telefon nr.</label
+              >
+            </div>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" required />
+            <label for="email"
+              ><i class="fa-solid fa-envelope"></i> Email</label
+            >
+          </div>
+          <div class="input-group">
+            <textarea id="message" rows="8" required></textarea>
+            <label for="message"
+              ><i class="fa-solid fa-comments"></i> Skriv en besked</label
+            >
+          </div>
+          <button type="submit">
+            Send <i class="fa-regular fa-paper-plane"></i>
+          </button>
+        </form>
       </section>
     </main>
     <script src="js/script.js"></script>

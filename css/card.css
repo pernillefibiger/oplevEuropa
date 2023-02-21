@@ -9,7 +9,7 @@
 
 .card-main {
   background-color: white;
-  margin-top: 20%;
+  margin-top: 25%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* margin-left: 1%;
@@ -44,4 +44,66 @@
 .turist {
   max-width: 65%;
   margin-left: 7.5%;
+}
+
+/* form */
+
+form {
+  width: 90%;
+  max-width: 600px;
+  /* background-color: #8c8c8c; */
+  padding: 5%;
+  margin-top: 10%;
+}
+
+.input-group {
+  margin-bottom: 35px;
+  position: relative;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 0;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+  background: transparent;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: black;
+  cursor: text;
+  transition: 0.2s;
+}
+button {
+  padding: 10px 0;
+  color: black;
+  outline: none;
+  background: transparent;
+  border: 1px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+input:focus ~ label,
+input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row .input-group {
+  flex-basis: 48%;
 }
