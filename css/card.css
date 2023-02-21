@@ -117,6 +117,7 @@ button {
   border: 1px solid black;
   width: 100%;
   cursor: pointer;
+  font-family: centra-medium;
 }
 input:focus ~ label,
 input:valid ~ label,
@@ -132,6 +133,11 @@ textarea:valid ~ label {
 }
 .row .input-group {
   flex-basis: 48%;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 /* responsiv */
