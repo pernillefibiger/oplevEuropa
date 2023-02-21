@@ -22,7 +22,7 @@
         <ul>
           <li><a href="lande.html">Destinationer</a></li>
           <li><a href="card.html">Shop</a></li>
-          <li><a href="card.html">Subscribe</a></li>
+          <li><a href="card.html" class="subscribe">Subscribe</a></li>
         </ul>
       </nav>
     </header>
@@ -35,28 +35,65 @@
       <div class="forside_tekst">
         <p id="forside_tekst1">
           Der er mange gode grunde til at besøge Europa. Europa er hjemsted for nogle af verdens mest berømte og smukke seværdigheder. Nogle af disse inkluderer Eiffeltårnet i Paris, Sagrada Familia i Barcelona, Colosseum i Rom, Tivoli i København og
-          Brandenburger Tor i Berlin. Europas forskellige kulturer og arkitektoniske stilarter afspejler sig i seværdighederne og giver en unik og fascinerende oplevelse for besøgende fra hele verden. <br />
-          <br />
-          Europa er hjemsted for nogle af verdens mest forskelligartede og lækre madscener. Fra det traditionelle franske køkken til det moderne, nordiske køkken i Skandinavien, er der noget for enhver smag. I Italien kan man nyde pizza, pasta og
-          gelato, mens Spanien byder på tapas og paella. Tyskland er kendt for sin øl og pølser, mens England er hjemsted for pubkultur og fish and chips. Europa er også hjemsted for mange Michelin-stjernede restauranter, der tilbyder sofistikeret
-          madlavning på højeste niveau. Madscenen er varieret og levende, og det er nemt at finde et spisested, der passer til enhver smag og budget.
+          Brandenburger Tor i Berlin. Europas forskellige kulturer og arkitektoniske stilarter afspejler sig i seværdighederne <span id="dots">...</span
+          ><span id="mere">
+            og giver en unik og fascinerende oplevelse for besøgende fra hele verden. <br />
+            <br />
+            Europa er hjemsted for nogle af verdens mest forskelligartede og lækre madscener. Fra det traditionelle franske køkken til det moderne, nordiske køkken i Skandinavien, er der noget for enhver smag. I Italien kan man nyde pizza, pasta og
+            gelato, mens Spanien byder på tapas og paella. Tyskland er kendt for sin øl og pølser, mens England er hjemsted for pubkultur og fish and chips. Europa er også hjemsted for mange Michelin-stjernede restauranter, der tilbyder sofistikeret
+            madlavning på højeste niveau. Madscenen er varieret og levende, og det er nemt at finde et spisested, der passer til enhver smag og budget.
 
-          <br /><br />Endelig er Europa let at rejse rundt i, med et veludviklet transportsystem og et stort udvalg af overnatningsmuligheder, herunder hoteller, vandrehjem og ferielejligheder. Samlet set tilbyder Europa en unik og fascinerende
-          oplevelse for alle besøgende.
+            <br /><br />Endelig er Europa let at rejse rundt i, med et veludviklet transportsystem og et stort udvalg af overnatningsmuligheder, herunder hoteller, vandrehjem og ferielejligheder. Samlet set tilbyder Europa en unik og fascinerende
+            oplevelse for alle besøgende.</span
+          ><button onclick="myFunction()" id="læsmereknap">Læs mere</button>
         </p>
         <div class="forside_nav">
-          <p id="forside_nav_p">Hop til:</p>
-          <p>01</p>
-          <a href="#section-2">Europæriske Lande</a><br />
-          <p>02</p>
-          <a href="#section-3">Oplevelsesrige seværdigheder</a><br />
-          <p>03</p>
-          <a href="#section-4">Forbered din rejse</a><br />
+          <div id="nav_border">
+            <p id="forside_nav_p">Hop til:</p>
+            <a href="#section-2"> 01 <u class="u-tekst">Europæriske Lande</u></a
+            ><br />
+            <a href="#section-3">02 <u class="u-tekst">Oplevelsesrige seværdigheder</u></a
+            ><br />
+            <a href="#section-4">03 <u class="u-tekst">Forbered din rejse</u></a
+            ><br />
+          </div>
         </div>
       </div>
-      <div id="top_div">
-        <h2>Top seværdigheder</h2>
+      <div id="forside_blok1">
+        <div class="forside_grid_1_1">
+          <div>
+            <h2 id="forside_h2">Top seværdigheder</h2>
+          </div>
+          <div class="explore">
+            <p id="udforsk">Udforsk</p>
+          </div>
+        </div>
+        <div class="forside_popular">
+          <div class="forside_land1"></div>
+          <div class="forside_land2"></div>
+          <div class="forside_land3"></div>
+          <div class="forside_land4"></div>
+        </div>
+        <div class="forside_popular_tekst">
+          <div class="forside_barcelona">
+            <p>Barcelona</p>
+            <h2>Sagrada Familia</h2>
+          </div>
+          <div class="forside_rom">
+            <p>Rom</p>
+            <h2>Colosseum</h2>
+          </div>
+          <div class="forside_paris">
+            <p>Paris</p>
+            <h2>Eiffeltårnet</h2>
+          </div>
+          <div class="foside_lissabon">
+            <p>Lissabon</p>
+            <h2>Lissabon Oceanarium</h2>
+          </div>
+        </div>
       </div>
+      <div id="top_div"></div>
       <div id="forside_seveardigheder">
         <div class="mulighed1">
           <img src="images/barcelona2.jpg" alt="barcelona2" width="100%" />
@@ -167,5 +204,6 @@
     </main>
     <footer></footer>
     <script src="js/script.js"></script>
+    <script src="js/forside.js"></script>
   </body>
 </html>

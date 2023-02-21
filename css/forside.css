@@ -32,6 +32,7 @@
   margin-top: -8%;
   position: absolute;
   z-index: 1;
+  font-family: centra-book;
 }
 
 #forside_main {
@@ -68,16 +69,139 @@ p.kortforklaring {
   margin-left: 90px;
   padding-left: 4vw;
   margin-top: 20%;
+  font-family: centra-book;
 }
 
-.forside_nav {
-  margin: 20% 7% 19% 45%;
-  text-decoration: inherit;
+.forside_nav a {
+  margin-left: 4%;
   font-family: centra-medium;
-  color: black;
+  font-size: 14px;
+  color: lightgray;
+  text-decoration: none;
+  line-height: 40px;
 }
 
 #forside_nav_p {
   font-family: centra-light;
+  margin: 20% 7% 2% 4%;
+  font-size: 18px;
+}
+
+#nav_border {
+  border-left: 2px solid black;
+  margin-left: 32%;
+  margin-top: 23%;
+  border-left-width: 2px;
+}
+.u-tekst {
+  color: black;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+#mere {
+  display: none;
+}
+
+#læsmereknap {
+  border: none;
+  background-color: white;
+  color: blue;
+  font-family: centra-book;
+}
+
+#forside_blok1 {
+  background-color: #4b4b4b;
+  color: white;
+  margin-top: 7%;
+}
+
+.forside_land1 {
+  width: 20vw;
+  height: 25vw;
+  border-radius: 25px;
+  background-image: url("/images/seværdigheder/spanien/sagradafamilia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forside_land2 {
+  width: 20vw;
+  height: 25vw;
+  border-radius: 25px;
+  background-image: url("/images/seværdigheder/italien/coloseum.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.forside_land3 {
+  width: 20vw;
+  height: 25vw;
+  border-radius: 25px;
+  background-image: url("/images/seværdigheder/frankrig/eiffeltårnet.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forside_land4 {
+  width: 20vw;
+  height: 25vw;
+  border-radius: 25px;
+  background-image: url("/images/seværdigheder/portugal/oceanáriodelisboa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.forside_popular_tekst {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 3em;
+  padding-bottom: 3em;
+}
+
+.forside_popular_tekst p,
+h2 {
+  margin: 0;
+}
+
+.forside_popular_tekst p {
+  font-family: centra-light;
   font-size: 15px;
+}
+
+.forside_popular_tekst h2 {
+  font-family: centra-medium;
+}
+
+.forside_popular {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  padding: 0 1em 0.5em 3em;
+}
+
+#forside_h2 {
+  font-family: centra-medium;
+  font-size: 30px;
+  padding: 5% 0 0 4%;
+}
+
+.forside_grid_1_1 {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+#udforsk {
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 25px;
+  width: 7vw;
+  padding: 0.5em;
+  text-align: center;
+  margin-top: 50%;
+  font-family: centra-book;
+}
+
+#udforsk:hover {
+  background-color: white;
+  color: #4b4b4b;
 }
