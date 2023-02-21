@@ -1,0 +1,14 @@
+#forside_baggrundsbillede {
+  background-image: url("../images/barcelona2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+  width: 100%;
+}
+#forside_beskrivendetekst {
+  width: 40vw;
+  background-color: white;
+  padding: 4vw 4vw 0 4vw;
+  position: sticky;
+  margin-top: -68px;
+}
