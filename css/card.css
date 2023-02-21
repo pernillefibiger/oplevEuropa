@@ -1,3 +1,12 @@
+@font-face {
+  font-family: centra-medium;
+  src: url(/fonts/CentraNo2-Medium.ttf);
+}
+@font-face {
+  font-family: centra-light;
+  src: url(/fonts/CentraNo2-Light.ttf);
+}
+
 /* card */
 .card {
   background-image: url("../images/milano.jpg");
@@ -6,35 +15,49 @@
   height: 50vw;
   width: 100%;
 }
-
-.card-main {
-  background-color: white;
-  margin-top: 25%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* margin-left: 1%;
+@media (min-width: 700px) {
+  .card-main {
+    background-color: white;
+    margin-top: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: centra-medium;
+    /* margin-left: 1%;
   margin-right: 1%; */
-}
+  }
 
-.beskrivendetekst-card {
-  width: 40vw;
-  background-color: white;
-  position: absolute;
-  padding: 4vw;
-  top: 35%;
-  z-index: 1;
+  .beskrivendetekst-card {
+    width: 40vw;
+    background-color: white;
+    position: absolute;
+    padding: 4vw;
+    top: 35%;
+    z-index: 1;
+  }
 }
-
 .card-main p {
   line-height: 1.5em;
+  font-family: centra-light;
+}
+
+b {
+  font-family: centra-medium;
 }
 
 .card-main h1 {
   border-bottom: 0.1vw solid black;
-  width: 25vw;
+  width: 16vw;
   padding-bottom: 15px;
   font-size: 2.5rem;
 }
+
+#skriv-dig-op {
+  border-bottom: 0.1vw solid black;
+  width: 24vw;
+  padding-bottom: 15px;
+  font-size: 2.5rem;
+}
+
 .card-img {
   width: 95%;
   margin-top: 15%;
@@ -48,12 +71,15 @@
 
 /* form */
 
+form p {
+  margin-bottom: 5%;
+}
+
 form {
   width: 90%;
   max-width: 600px;
-  /* background-color: #8c8c8c; */
   padding: 5%;
-  margin-top: 10%;
+  margin-top: -2%;
 }
 
 .input-group {
@@ -106,4 +132,31 @@ textarea:valid ~ label {
 }
 .row .input-group {
   flex-basis: 48%;
+}
+
+/* responsiv */
+
+@media (max-width: 600px) {
+  .card-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 35%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: centra-medium;
+  }
+  .card-main h1 {
+    border-bottom: 0.1vw solid black;
+    width: 34vw;
+    font-size: 1.8rem;
+    background-color: white;
+    border: 30px solid white;
+    font-family: centra-medium;
+    margin-top: -5%;
+  }
+  #skriv-dig-op {
+    border-bottom: 0.1vw solid black;
+    width: 50vw;
+    font-size: 1.8rem;
+  }
 }
