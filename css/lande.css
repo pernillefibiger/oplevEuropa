@@ -42,6 +42,9 @@
   height: 15rem;
   margin-bottom: 20px;
 }
+.Kort img:hover {
+  color: black;
+}
 
 h2 {
   position: absolute;
