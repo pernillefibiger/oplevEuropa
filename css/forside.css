@@ -30,7 +30,6 @@
   background-color: white;
   padding: 0 4vw 0 4vw;
   margin-top: -8%;
-  position: absolute;
   z-index: 1;
   font-family: centra-book;
 }
@@ -67,8 +66,6 @@ p.kortforklaring {
 
 #forside_tekst1 {
   margin-left: 90px;
-  padding-left: 4vw;
-  margin-top: 20%;
   font-family: centra-book;
 }
 
@@ -116,38 +113,10 @@ p.kortforklaring {
   margin-top: 7%;
 }
 
-.forside_land1 {
+.forside_popular_tekst img {
   width: 20vw;
   height: 25vw;
   border-radius: 25px;
-  background-image: url("/images/seværdigheder/spanien/sagradafamilia.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.forside_land2 {
-  width: 20vw;
-  height: 25vw;
-  border-radius: 25px;
-  background-image: url("/images/seværdigheder/italien/coloseum.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-}
-
-.forside_land3 {
-  width: 20vw;
-  height: 25vw;
-  border-radius: 25px;
-  background-image: url("/images/seværdigheder/frankrig/eiffeltårnet.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.forside_land4 {
-  width: 20vw;
-  height: 25vw;
-  border-radius: 25px;
-  background-image: url("/images/seværdigheder/portugal/oceanáriodelisboa.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -204,4 +173,100 @@ h2 {
 #udforsk:hover {
   background-color: white;
   color: #4b4b4b;
+}
+
+@media (max-width: 600px) {
+  .forside_grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .forside_popular {
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr);
+    padding: 0 1em 0.5em 3em;
+  }
+}
+
+@media (max-width: 1050px) {
+  .u-tekst {
+    font-size: 12px;
+    margin-left: 6px;
+  }
+
+  .forside_nav a {
+    font-size: 11px;
+    margin-left: 6px;
+  }
+
+  #forside_nav p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 700px) {
+  #nav_border {
+    display: none;
+  }
+
+  #udforsk {
+    display: none;
+  }
+
+  .forside_tekst {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #forside_beskrivendetekst {
+    width: auto;
+  }
+
+  p.kortforklaring {
+    margin-left: 0;
+  }
+  #forside_tekst1 {
+    margin-left: 0;
+  }
+
+  #forside_h1 {
+    margin-left: 0;
+  }
+
+  .explore {
+    display: none;
+  }
+
+  .forside_grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #forside_h2 {
+    padding: 10% 0 10% 0;
+  }
+}
+
+@media (max-width: 870px) {
+  .forside_popular_tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
+
+  #forside_blok1 {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media (max-width: 670px) {
+  .forside_popular_tekst {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .forside_popular_tekst img {
+    width: 30vw;
+    height: 35vw;
+  }
 }
