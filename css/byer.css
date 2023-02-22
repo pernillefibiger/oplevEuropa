@@ -1,0 +1,45 @@
+@font-face {
+  font-family: centra-medium;
+  src: url(/fonts/CentraNo2-Medium.ttf);
+}
+@font-face {
+  font-family: centra-light;
+  src: url(/fonts/CentraNo2-Light.ttf);
+}
+
+.by-body {
+  background-image: url("../images/rom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+  width: 100%;
+}
+
+.by-main {
+  background-color: white;
+  margin-top: 20%;
+  font-family: centra-medium;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+}
+
+#grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#grid_1-1 img {
+  width: 70%;
+  border-radius: 70px;
+  margin-left: 15%;
+  margin-top: -10%;
+}
+
+.overskrift {
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20%;
+  position: absolute;
+}
