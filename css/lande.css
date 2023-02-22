@@ -24,13 +24,12 @@
   border-radius: 25px;
 }
 header h1 {
-  color: white;
+  color: #c6bcbcb1;
   padding-left: 25%;
   padding-right: 20%;
   font-size: 5rem;
   padding-top: 4%;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #031b23;
+
   font-family: centra-medium;
 }
 .lande-main {
@@ -47,41 +46,21 @@ header h1 {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s ease;
-    background-color: #031b23;
-    z-index: 2;
-    max-width: 80%;
-    height: 15rem;
-    margin-left: 10%;
-    margin-top: -10%;
-    border-radius: 25px;
-  }
 
   .Kort img {
     position: relative;
     display: inline-block;
   }
 
-  .Kort:hover .overlay {
-    opacity: 0.5;
-    color: black;
-  }
   header h1 {
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #031b23;
-    padding-left: 27%;
+    padding-left: 15%;
     padding-right: 25%;
     font-size: 3rem;
     padding-top: 4%;
+    margin-top: 20%;
+  }
+  .lande img {
+    margin-left: 10%;
   }
 }
 .Kort {
@@ -109,29 +88,31 @@ h2 {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #031b23;
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: auto;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #031b23;
-  z-index: 2;
-  max-width: 80%;
-  height: 15rem;
-  margin-left: 10%;
-  margin-top: -10%;
-  border-radius: 25px;
-}
+@media (min-width: 1000px) {
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #031b23;
+    z-index: 2;
+    max-width: 80%;
+    height: 15rem;
+    margin-left: 10%;
+    margin-top: -10%;
+    border-radius: 25px;
+  }
 
-.Kort {
-  position: relative;
-}
+  .Kort {
+    position: relative;
+  }
 
-.Kort:hover .overlay {
-  opacity: 0.5;
+  .Kort:hover .overlay {
+    opacity: 0.5;
+  }
 }
