@@ -24,9 +24,11 @@
   justify-content: center;
 }
 
-#grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media (min-width: 800px) {
+  #grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 #grid_1-1 img {
@@ -66,4 +68,31 @@
   text-decoration: none;
   margin-left: 18%;
   color: blue;
+}
+
+/* responsiv */
+
+@media (max-width: 800px) {
+  .by-main {
+    background-color: white;
+    margin-top: 35%;
+    font-family: centra-medium;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  #grid_1-1 img {
+    width: 70%;
+    border-radius: 50px;
+    margin-left: 15%;
+    margin-top: 2%;
+  }
+
+  .overskrift {
+    color: white;
+    margin-top: -25%;
+    position: absolute;
+    font-size: 4rem;
+  }
 }
