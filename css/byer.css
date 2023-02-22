@@ -19,7 +19,7 @@
   background-color: white;
   margin-top: 20%;
   font-family: centra-medium;
-  height: 60vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
 }
@@ -31,15 +31,29 @@
 
 #grid_1-1 img {
   width: 70%;
-  border-radius: 70px;
+  border-radius: 50px;
   margin-left: 15%;
   margin-top: -10%;
 }
 
+#grid_1-1 p {
+  color: black;
+  font-size: 0.9rem;
+  margin-left: 18%;
+  margin-right: 18%;
+  font-family: centra-light;
+  line-height: 1.5em;
+}
+
+#grid_1-1 h3 {
+  margin-left: 18%;
+  margin-right: 18%;
+  font-size: 1.3rem;
+}
+
 .overskrift {
   color: white;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: -20%;
+  margin-top: -15%;
   position: absolute;
+  font-size: 4rem;
 }
