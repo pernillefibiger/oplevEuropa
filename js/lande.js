@@ -12,4 +12,5 @@ async function hentData() {
   vis(json);
 }
 
-
+const main = document.querySelector(".lande-main");
+const template = document.querySelector("template").content;
