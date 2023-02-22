@@ -14,7 +14,7 @@ async function hentData() {
   json.forEach(vis);
 }
 
-const main = document.querySelector("#by-main");
+const main = document.querySelector(".by-main");
 const template = document.querySelector("template").content;
 
 function vis(byer) {

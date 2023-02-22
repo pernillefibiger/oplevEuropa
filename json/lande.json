@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "63ef548762144c690002176a",
+    "Lande": "Danmark",
+    "_created": "2023-02-17T10:18:47.737Z",
+    "_changed": "2023-02-22T18:51:45.096Z",
+    "_createdby": "pernillebundesen@yahoo.com",
+    "_changedby": "katj6533@stud.kea.dk",
+    "_version": 7,
+    "images": "koebenhavn.jpg"
+  },
+  {
+    "_id": "63ef549562144c690002176e",
+    "Lande": "Tyskland",
+    "_created": "2023-02-17T10:19:01.064Z",
+    "_changed": "2023-02-22T12:30:02.910Z",
+    "_createdby": "pernillebundesen@yahoo.com",
+    "_changedby": "pernillebundesen@yahoo.com",
+    "_version": 3,
+    "images": "hamborg.jpg"
+  },
+  {
+    "_id": "63ef54a062144c6900021772",
+    "Lande": "Holland",
+    "_created": "2023-02-17T10:19:12.540Z",
+    "_changed": "2023-02-22T12:29:58.126Z",
+    "_createdby": "pernillebundesen@yahoo.com",
+    "_changedby": "pernillebundesen@yahoo.com",
+    "_version": 3,
+    "images": "amsterdam.jpg"
+  },
+  {
+    "_id": "63ef54b362144c6900021776",
+    "Lande": "Frankrig",
+    "_created": "2023-02-17T10:19:31.022Z",
+    "_changed": "2023-02-22T12:29:53.441Z",
+    "_createdby": "pernillebundesen@yahoo.com",
+    "_changedby": "pernillebundesen@yahoo.com",
+    "_version": 3,
+    "images": "paris.jpg"
+  },
+  {
+    "_id": "63ef548f62144c690002176c",
+    "Lande": "Italien",
+    "_created": "2023-02-17T10:18:55.378Z",
+    "_changed": "2023-02-22T12:29:49.055Z",
+    "_createdby": "pernillebundesen@yahoo.com",
+    "_changedby": "pernillebundesen@yahoo.com",
+    "_version": 3,
+    "images": "rom.jpg"
+  },
+  {
+    "_id": "63ef54c262144c6900021779",
+    "Lande": "Portugal",
+    "_created": "2023-02-17T10:19:46.150Z",
+    "_changed": "2023-02-22T12:29:31.814Z",
+    "_createdby": "pernillebundesen@yahoo.com",
+    "_changedby": "pernillebundesen@yahoo.com",
+    "_version": 3,
+    "images": "lissabon.jpg"
+  },
+  {
+    "_id": "63ef549a62144c6900021770",
+    "Lande": "Spanien",
+    "_created": "2023-02-17T10:19:06.612Z",
+    "_changed": "2023-02-22T12:30:07.475Z",
+    "_createdby": "pernillebundesen@yahoo.com",
+    "_changedby": "pernillebundesen@yahoo.com",
+    "_version": 3,
+    "images": "barcelona.jpg"
+  }
+]
