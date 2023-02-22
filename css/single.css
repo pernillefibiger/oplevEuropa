@@ -1,0 +1,109 @@
+#single_baggrundsbillede {
+  background-image: url("../images/barcelona.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vw;
+  width: 100%;
+}
+
+#single_main {
+  background-color: white;
+  margin-top: 30%;
+  position: relative;
+}
+
+.single_beskrivendetekst {
+  width: 50vw;
+  background-color: white;
+  padding: 0 4vw 0 4vw;
+  margin-top: -8%;
+  z-index: 1;
+  font-family: centra-book;
+}
+
+.single_popular_tekst img {
+  width: 20vw;
+  height: 25vw;
+  border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.single_popular_tekst {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 3em;
+  padding-left: 7em;
+}
+
+.single_popular_tekst p,
+h2 {
+  margin: 0;
+}
+
+.single_popular_tekst p {
+  font-family: centra-light;
+  font-size: 15px;
+  padding-right: 6em;
+}
+
+.single_popular_tekst h2 {
+  font-family: centra-medium;
+}
+
+.single_popular {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  padding: 0 1em 0.5em 3em;
+}
+
+#single_h2 {
+  font-family: centra-medium;
+  font-size: 30px;
+  padding: 5% 0 3% 5%;
+}
+
+.single_kortforklaring {
+  margin-left: 90px;
+  font-size: 20px;
+}
+
+#single_blok1 {
+  background-color: #4b4b4b;
+  color: white;
+  margin-top: 7%;
+  display: grid;
+}
+
+#læsmereknap2 {
+  border: none;
+  background-color: #4b4b4b;
+  color: beige;
+  font-family: centra-book;
+}
+
+#læsmereknap3 {
+  border: none;
+  background-color: #4b4b4b;
+  color: beige;
+  font-family: centra-book;
+}
+
+#læsmereknap4 {
+  border: none;
+  background-color: #4b4b4b;
+  color: beige;
+  font-family: centra-book;
+}
+
+#mere2 {
+  display: none;
+}
+
+#mere3 {
+  display: none;
+}
+
+#mere4 {
+  display: none;
+}

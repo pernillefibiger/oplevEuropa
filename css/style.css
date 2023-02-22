@@ -63,13 +63,6 @@
 
 /* ---------------------------- */
 
-#baggrundsbillede {
-  background-image: url("../images/barcelona2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vw;
-  width: 100%;
-}
 .beskrivendetekst {
   width: 40vw;
   background-color: white;
