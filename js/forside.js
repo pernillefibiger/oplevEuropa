@@ -61,3 +61,51 @@ function myFunction4() {
     meretext.style.display = "inline";
   }
 }
+
+function myFunction5() {
+  var dots = document.getElementById("dots5");
+  var meretext = document.getElementById("mere5");
+  var tekstknap = document.getElementById("læsmereknap5");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    tekstknap.innerHTML = "Læs mere";
+    meretext.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    tekstknap.innerHTML = "Læs mindre";
+    meretext.style.display = "inline";
+  }
+}
+
+function myFunction6() {
+  var dots = document.getElementById("dots6");
+  var meretext = document.getElementById("mere6");
+  var tekstknap = document.getElementById("læsmereknap6");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    tekstknap.innerHTML = "Læs mere";
+    meretext.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    tekstknap.innerHTML = "Læs mindre";
+    meretext.style.display = "inline";
+  }
+}
+
+function myFunction7() {
+  var dots = document.getElementById("dots7");
+  var meretext = document.getElementById("mere7");
+  var tekstknap = document.getElementById("læsmereknap7");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    tekstknap.innerHTML = "Læs mere";
+    meretext.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    tekstknap.innerHTML = "Læs mindre";
+    meretext.style.display = "inline";
+  }
+}
