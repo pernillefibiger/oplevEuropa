@@ -36,6 +36,10 @@
   margin-top: -10%;
 }
 
+#grid_1-1 img:hover {
+  width: 70.5%;
+}
+
 #grid_1-1 p {
   color: black;
   font-size: 0.9rem;
@@ -56,4 +60,10 @@
   margin-top: -15%;
   position: absolute;
   font-size: 4rem;
+}
+
+.læs-mere {
+  text-decoration: none;
+  margin-left: 18%;
+  color: blue;
 }

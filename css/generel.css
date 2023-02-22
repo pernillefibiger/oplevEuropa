@@ -23,18 +23,18 @@ nav ul li {
 
 .logo img {
   width: 60%;
-  margin-left: 82%;
+  margin-left: 74%;
 }
 
 .search img {
   width: 60%;
-  margin-left: 85%;
+  margin-left: 70%;
 }
 
 nav a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .subscribe:hover {
