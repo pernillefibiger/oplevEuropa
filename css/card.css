@@ -142,7 +142,7 @@ button:hover {
 
 /* responsiv */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .card-main {
     display: grid;
     grid-template-columns: 1fr;
