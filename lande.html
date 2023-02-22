@@ -30,14 +30,16 @@
       <h1>Europæriske lande</h1>
     </header>
     <main class="lande-main">
-      <div class="Kort">
-        <a class="land1" href="byer.html"
-          ><img src="images/koebenhavn.jpg" alt="koebenhavn" class="danmark"
-        /></a>
-        <div class="overlay"></div>
-        <h2>Danmark</h2>
-      </div>
-      <div class="Kort">
+      <template>
+        <div class="Kort">
+          <a href="byer.html"
+            ><img src="" alt="" class="danmark" id="billede-land"
+          /></a>
+          <!-- <div class="overlay"></div> -->
+          <h2 class="land"></h2>
+        </div>
+      </template>
+      <!-- <div class="Kort">
         <a class="land2" href="byer.html"
           ><img src="images/hamborg.jpg" alt="hamborg" class="danmark"
         /></a>
@@ -78,7 +80,7 @@
         /></a>
         <h2>Italien</h2>
         <div class="overlay"></div>
-      </div>
+      </div> -->
     </main>
     <script src="js/lande.js"></script>
     <script src="js/script.js"></script>
