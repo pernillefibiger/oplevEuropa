@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="css/card.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <link rel="stylesheet" href="css/burger.css" />
-    <script
-      src="https://kit.fontawesome.com/4c9d924f79.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/4c9d924f79.js" crossorigin="anonymous"></script>
     <title>Europa card</title>
   </head>
   <body class="card">
@@ -32,85 +29,63 @@
       </nav>
     </header>
     <main class="card-main">
-      <section>
-        <div class="beskrivendetekst-card">
-          <h1>BYPAS KORT</h1>
-          <p>
-            En ferie i udlandet involverer normalt en masse planlægning,
-            forudbestilling, budgettering og alt det der, som folk egentlig ikke
-            har lyst til, men skal. Et kort som dette hjælper med at eliminere
-            alle disse problemer og tilbyder store fordele for sine brugere,
-            såsom:
-          </p>
-          <p>
-            <b>Utrolige besparelser</b>
-            <br />
-            Bypas-kortet er i bund og grund en nøgle til byen. Ved at tilbyde
-            gratis adgang til en masse steder og rabatter på andre, hjælper
-            dette kort dig med at spare mange penge. Uden passet skulle du
-            individuelt købe en billet til hver attraktion, hvilket ville koste
-            dig langt mere, end hvis du købte passet. Dette kort giver dig også
-            mulighed for at bruge den offentlige transport gratis, hvilket
-            betyder, at du sparer på unødvendige udgifter og derfor kan bruge
-            dine penge på meningsfulde ting.
-          </p>
-          <p>
-            <b>Spare tid</b>
-            <br />
-            En anden stor fordel ved dette kort er, at det hjælper dig med at
-            spare en masse tid på din rejse. Uden kortet ville du blive bedt om
-            at stå i kø ved attraktionerne og købe dine billetter fra skranken.
-            Med dette kort skal du blot ignorere disse lange linjer og gå
-            direkte mod indgangsporten! Det virker måske ikke som en stor
-            fordel, men i turistsæsonen kan nogle af køerne for at komme ind
-            fortsætte evigt og tage evigheder at komme igennem. Spar dig selv
-            for besværet og tiden og brug kortet
-          </p>
+      <section id="oplev_div">
+        <div>
+          <img src="images/oplev.png" alt="oplev.png" width="80%" id="oplev" />
+        </div>
+        <div>
+          <img src="images/cards.png" alt="cards" class="card-img" />
         </div>
       </section>
-      <section>
-        <img src="images/cards-final.png" alt="cards" class="card-img" />
-      </section>
-      <section>
-        <img src="images/turist.jpg" alt="turist" class="turist" />
-      </section>
-      <section>
-        <form name="contact" netlify>
-          <h1 id="skriv-dig-op">SKRIV DIG OP HER</h1>
-          <p>
-            Skriv dig op via vores formular nedenfor, hvis du ønsker at bestille
-            eller høre mere om vores bypas kort
-          </p>
-          <div class="row">
-            <div class="input-group">
-              <input type="text" id="navn" required />
-              <label for="navn"
-                ><i class="fa-solid fa-user"></i> Dit Navn</label
-              >
+      <section id="beskrivelse_card">
+        <section>
+          <form name="contact" netlify>
+            <h1 id="skriv-dig-op">SKRIV DIG OP HER</h1>
+            <p>Skriv dig op via vores formular nedenfor, hvis du ønsker at bestille eller høre mere om vores bypas kort</p>
+            <div class="row">
+              <div class="input-group">
+                <input type="text" id="navn" required />
+                <label for="navn"><i class="fa-solid fa-user"></i> Dit Navn</label>
+              </div>
+              <div class="input-group">
+                <input type="text" id="nummer" required />
+                <label for="nummer"><i class="fa-solid fa-phone"></i> Telefon nr.</label>
+              </div>
             </div>
             <div class="input-group">
-              <input type="text" id="nummer" required />
-              <label for="nummer"
-                ><i class="fa-solid fa-phone"></i> Telefon nr.</label
-              >
+              <input type="text" id="email" required />
+              <label for="email"><i class="fa-solid fa-envelope"></i> Email</label>
             </div>
+            <div class="input-group">
+              <textarea id="message" rows="8" required></textarea>
+              <label for="message"><i class="fa-solid fa-comments"></i> Skriv en besked</label>
+            </div>
+            <button type="submit">Send <i class="fa-regular fa-paper-plane"></i></button>
+          </form>
+        </section>
+        <section>
+          <div class="beskrivendetekst-card">
+            <h1>BYPAS KORT</h1>
+            <p>
+              En ferie i udlandet involverer normalt en masse planlægning, forudbestilling, budgettering og alt det der, som folk egentlig ikke har lyst til, men skal. Et kort som dette hjælper med at eliminere alle disse problemer og tilbyder store
+              fordele for sine brugere, såsom:
+            </p>
+            <p>
+              <b>Utrolige besparelser</b>
+              <br />
+              Bypas-kortet er i bund og grund en nøgle til byen. Ved at tilbyde gratis adgang til en masse steder og rabatter på andre, hjælper dette kort dig med at spare mange penge. Uden passet skulle du individuelt købe en billet til hver
+              attraktion, hvilket ville koste dig langt mere, end hvis du købte passet. Dette kort giver dig også mulighed for at bruge den offentlige transport gratis, hvilket betyder, at du sparer på unødvendige udgifter og derfor kan bruge dine
+              penge på meningsfulde ting.
+            </p>
+            <p>
+              <b>Spare tid</b>
+              <br />
+              En anden stor fordel ved dette kort er, at det hjælper dig med at spare en masse tid på din rejse. Uden kortet ville du blive bedt om at stå i kø ved attraktionerne og købe dine billetter fra skranken. Med dette kort skal du blot
+              ignorere disse lange linjer og gå direkte mod indgangsporten! Det virker måske ikke som en stor fordel, men i turistsæsonen kan nogle af køerne for at komme ind fortsætte evigt og tage evigheder at komme igennem. Spar dig selv for
+              besværet og tiden og brug kortet
+            </p>
           </div>
-          <div class="input-group">
-            <input type="text" id="email" required />
-            <label for="email"
-              ><i class="fa-solid fa-envelope"></i> Email</label
-            >
-          </div>
-          <div class="input-group">
-            <textarea id="message" rows="8" required></textarea>
-            <label for="message"
-              ><i class="fa-solid fa-comments"></i> Skriv en besked</label
-            >
-          </div>
-          <button type="submit">
-            Send <i class="fa-regular fa-paper-plane"></i>
-          </button>
-        </form>
+        </section>
       </section>
     </main>
     <script src="js/script.js"></script>
