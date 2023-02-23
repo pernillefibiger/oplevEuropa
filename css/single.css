@@ -96,6 +96,10 @@ h2 {
   font-family: centra-book;
 }
 
+h2 {
+  font-family: centra-medium;
+}
+
 #mere2 {
   display: none;
 }
