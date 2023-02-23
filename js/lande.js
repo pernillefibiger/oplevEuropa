@@ -7,21 +7,22 @@
 // };
 
 async function hentData() {
-  const respons = await fetch("json/lande.json");
-  const json = await respons.json();
-  vis(json);
-  json.forEach(vis);
+  fetch("json/lande.json")
+    .then((ressponse) => ressponse.json())
+    .then(visLand);
 }
 
 const main = document.querySelector(".lande-main");
 const template = document.querySelector("template").content;
 
-function vis(land) {
-  console.log("function");
-  const klon = template.cloneNode(true);
-  klon.querySelector("#billede-land").src = "images/" + land.images;
-  klon.querySelector(".land").textContent = land.Lande;
-  main.appendChild(klon);
+function visLand(land) {
+  land.forEach((land) => {
+    console.log("function");
+    const klon = template.cloneNode(true);
+    klon.querySelector("#billede-land").src = "images/" + land.images;
+    klon.querySelector(".land").textContent = land.Lande;
+    main.appendChild(klon);
+  });
 }
 
 hentData();
