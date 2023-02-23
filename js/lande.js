@@ -1,13 +1,13 @@
-const url = "https://opleveuropa-c5da.restdb.io/rest/lande";
+// const url = "https://opleveuropa-c5da.restdb.io/rest/lande";
 
-const options = {
-  headers: {
-    "x-apikey": "63f67bf1478852088da6856e",
-  },
-};
+// const options = {
+//   headers: {
+//     "x-apikey": "63f67bf1478852088da6856e",
+//   },
+// };
 
 async function hentData() {
-  const respons = await fetch(url, options);
+  const respons = await fetch("json/lande.json");
   const json = await respons.json();
   vis(json);
   json.forEach(vis);
