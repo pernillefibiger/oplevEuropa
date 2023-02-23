@@ -1,21 +1,21 @@
 @font-face {
   font-family: centra-bold;
-  src: url(/fonts/CentraNo2-Bold.ttf);
+  src: url(../fonts/CentraNo2-Bold.ttf);
 }
 
 @font-face {
   font-family: centra-book;
-  src: url(/fonts/CentraNo2-Book.ttf);
+  src: url(../fonts/CentraNo2-Book.ttf);
 }
 
 @font-face {
   font-family: centra-light;
-  src: url(/fonts/CentraNo2-Light.ttf);
+  src: url(../fonts/CentraNo2-Light.ttf);
 }
 
 @font-face {
   font-family: centra-medium;
-  src: url(/fonts/CentraNo2-Medium.ttf);
+  src: url(../fonts/CentraNo2-Medium.ttf);
 }
 
 footer * {
