@@ -32,16 +32,23 @@
     <main id="forside_main">
       <div class="forside_tekst">
         <div id="forside_beskrivendetekst">
-          <h1 id="forside_h1">Barcelona</h1>
-          <p class="single_kortforklaring">
-            Barcelona er en smuk og livlig by beliggende i det nordøstlige Spanien, ved Middelhavskysten. Byen er kendt for sin imponerende arkitektur, herunder Gaudis mesterværker, Park Güell og Sagrada Familia, og dens smukke strande og madkultur.
-            Barcelona er også hjemsted for FC Barcelona, og den livlige Las Ramblas-gade, og tiltrækker millioner af turister hvert år.
-          </p>
+          <template class="template1">
+            <h1 id="forside_h1">Barcelona</h1>
+            <p class="single_kortforklaring">
+              Barcelona er en smuk og livlig by beliggende i det nordøstlige
+              Spanien, ved Middelhavskysten. Byen er kendt for sin imponerende
+              arkitektur, herunder Gaudis mesterværker, Park Güell og Sagrada
+              Familia, og dens smukke strande og madkultur. Barcelona er også
+              hjemsted for FC Barcelona, og den livlige Las Ramblas-gade, og
+              tiltrækker millioner af turister hvert år.
+            </p>
+          </template>
         </div>
         <div class="forside_nav">
           <div id="nav_border">
             <p id="forside_nav_p">Hop til:</p>
-            <a href="#single_blok1"> 01 <u class="u-tekst">Top seværdigheder</u></a
+            <a href="#single_blok1">
+              01 <u class="u-tekst">Top seværdigheder</u></a
             ><br />
             <a href="#single_blok2">02 <u class="u-tekst">Restauranter</u></a
             ><br />
@@ -54,50 +61,81 @@
         <h2 id="single_h2">Top seværdigheder</h2>
 
         <div class="single_popular_tekst">
-          <div class="single_img1">
-            <img class="single_stortbillede" src="images/seværdigheder/spanien/sagradafamilia.webp" alt="Sagrada Familia" />
-            <div class="s_media1">
-              <h2>Sagrada Familia</h2>
-              <p>
-                Sagrada Familia er en af de mest kendte seværdigheder i Barcelona, Spanien. Det er en stor, katolsk kirke, der er blevet under opførelse siden 1882, og som stadig ikke er færdigbygget. Kirken blev designet af den berømte spanske
-                arkitekt
-                <span id="dots2">...</span
-                ><span id="mere2"
-                  >Antoni Gaudí og er kendt for sin unikke arkitektur, der kombinerer gotisk og modernistisk stil. Sagrada Familia er en populær turistattraktion og besøges årligt af millioner af mennesker, der kommer for at beundre dens skulpturer,
-                  tårne og smukke glasmosaikvinduer.</span
-                ><button onclick="myFunction2()" id="læsmereknap2">Læs mere</button>
-              </p>
+          <template class="template2">
+            <div class="single_img1">
+              <img class="single_stortbillede" src="" alt="" />
+              <div class="s_media1">
+                <h2>Sagrada Familia</h2>
+                <p>
+                  Sagrada Familia er en af de mest kendte seværdigheder i
+                  Barcelona, Spanien. Det er en stor, katolsk kirke, der er
+                  blevet under opførelse siden 1882, og som stadig ikke er
+                  færdigbygget. Kirken blev designet af den berømte spanske
+                  arkitekt
+                  <span id="dots2">...</span
+                  ><span id="mere2"
+                    >Antoni Gaudí og er kendt for sin unikke arkitektur, der
+                    kombinerer gotisk og modernistisk stil. Sagrada Familia er
+                    en populær turistattraktion og besøges årligt af millioner
+                    af mennesker, der kommer for at beundre dens skulpturer,
+                    tårne og smukke glasmosaikvinduer.</span
+                  ><button onclick="myFunction2()" id="læsmereknap2">
+                    Læs mere
+                  </button>
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="single_img2">
-            <img src="images/seværdigheder/italien/coloseum.webp" alt="Colosseum" />
+          </template>
+          <!-- <div class="single_img2">
+            <img
+              src="images/seværdigheder/italien/coloseum.webp"
+              alt="Colosseum"
+            />
             <div class="s_media2">
               <h2>La Rambla</h2>
               <p>
-                La Rambla er en livlig, populær gade i centrum af Barcelona, Spanien. Gaden strækker sig fra Plaça de Catalunya i nord til havnen i syd og er fyldt med turister, der nyder dens mange butikker, caféer, restauranter, markeder og
+                La Rambla er en livlig, populær gade i centrum af Barcelona,
+                Spanien. Gaden strækker sig fra Plaça de Catalunya i nord til
+                havnen i syd og er fyldt med turister, der nyder dens mange
+                butikker, caféer, restauranter, markeder og
                 <span id="dots3">...</span
                 ><span id="mere3">
-                  gadeunderholdere. La Rambla er også hjemsted for flere kendte seværdigheder, herunder det berømte operahus, Gran Teatre del Liceu og markedspladsen La Boqueria. Med sin livlige atmosfære og imponerende arkitektur er La Rambla en af
-                  de mest populære steder at besøge i Barcelona.</span
-                ><button onclick="myFunction3()" id="læsmereknap3">Læs mere</button>
+                  gadeunderholdere. La Rambla er også hjemsted for flere kendte
+                  seværdigheder, herunder det berømte operahus, Gran Teatre del
+                  Liceu og markedspladsen La Boqueria. Med sin livlige atmosfære
+                  og imponerende arkitektur er La Rambla en af de mest populære
+                  steder at besøge i Barcelona.</span
+                ><button onclick="myFunction3()" id="læsmereknap3">
+                  Læs mere
+                </button>
               </p>
             </div>
           </div>
           <div class="single_img3">
-            <img src="images/seværdigheder/frankrig/eiffeltårnet.webp" alt="Eiffeltårnet" />
+            <img
+              src="images/seværdigheder/frankrig/eiffeltårnet.webp"
+              alt="Eiffeltårnet"
+            />
             <div class="s_media3">
               <h2>Parc de la Ciutadella</h2>
               <p>
-                Parc de la Ciutadella er en stor park beliggende i Barcelona, Spanien. Parken blev skabt i midten af det 19. århundrede, og den omfatter mange forskellige faciliteter, herunder en sø, en zoologisk have, et springvand, en stor
-                skulptur, Cascada,
+                Parc de la Ciutadella er en stor park beliggende i Barcelona,
+                Spanien. Parken blev skabt i midten af det 19. århundrede, og
+                den omfatter mange forskellige faciliteter, herunder en sø, en
+                zoologisk have, et springvand, en stor skulptur, Cascada,
                 <span id="dots4">...</span
                 ><span id="mere4"
-                  >og mange smukke haver og stier. Parc de la Ciutadella er også hjemsted for mange aktiviteter, såsom koncerter, teaterforestillinger og sportsbegivenheder, og det er en populær destination for både lokale og turister, der søger en
+                  >og mange smukke haver og stier. Parc de la Ciutadella er også
+                  hjemsted for mange aktiviteter, såsom koncerter,
+                  teaterforestillinger og sportsbegivenheder, og det er en
+                  populær destination for både lokale og turister, der søger en
                   rolig og naturskøn oplevelse midt i byen.</span
-                ><button onclick="myFunction4()" id="læsmereknap4">Læs mere</button>
+                ><button onclick="myFunction4()" id="læsmereknap4">
+                  Læs mere
+                </button>
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div id="single_blok2">
@@ -105,16 +143,32 @@
 
         <div class="single_rest">
           <div class="rest1">
-            <img class="single_stortbillede" src="images/amsterdam.webp" alt="Restaurant" />
+            <img
+              class="single_stortbillede"
+              src="images/amsterdam.webp"
+              alt="Restaurant"
+            />
             <div class="s2_media1">
               <h2>Con Gracia</h2>
               <p>
-                Restaurant Con Gracia er en prisvindende spisested beliggende i bydelen Gracia i Barcelona, Spanien. Denne restaurant er kendt for sin innovative og kreative spanske køkken, som præsenteres i en multisensorisk menu, hvor smag, lyd,
-                lys og tekstur<span id="dots5">...</span
+                Restaurant Con Gracia er en prisvindende spisested beliggende i
+                bydelen Gracia i Barcelona, Spanien. Denne restaurant er kendt
+                for sin innovative og kreative spanske køkken, som præsenteres i
+                en multisensorisk menu, hvor smag, lyd, lys og tekstur<span
+                  id="dots5"
+                  >...</span
                 ><span id="mere5">
-                  går op i en højere enhed. Gæsterne kan forvente sig en unik og udfordrende madoplevelse, som inkluderer op til 20 forskellige retter, og som serveres i en intim og afslappet atmosfære. Restauranten er også kendt for sit venlige og
-                  kyndige personale, og for sin omfattende vinkort, som inkluderer lokale og internationale vine. Restaurant Con Gracia er en fremragende mulighed for madelskere, der ønsker at prøve noget nyt og anderledes i Barcelona.</span
-                ><button onclick="myFunction5()" id="læsmereknap5">Læs mere</button>
+                  går op i en højere enhed. Gæsterne kan forvente sig en unik og
+                  udfordrende madoplevelse, som inkluderer op til 20 forskellige
+                  retter, og som serveres i en intim og afslappet atmosfære.
+                  Restauranten er også kendt for sit venlige og kyndige
+                  personale, og for sin omfattende vinkort, som inkluderer
+                  lokale og internationale vine. Restaurant Con Gracia er en
+                  fremragende mulighed for madelskere, der ønsker at prøve noget
+                  nyt og anderledes i Barcelona.</span
+                ><button onclick="myFunction5()" id="læsmereknap5">
+                  Læs mere
+                </button>
               </p>
             </div>
           </div>
@@ -123,12 +177,23 @@
             <div class="s2_media2">
               <h2>Caelis</h2>
               <p>
-                Restaurant Caelis er en gastronomisk restaurant beliggende i det historiske kvarter i Barcelona, Spanien. Denne restaurant er kendt for sit innovative franske køkken, som præsenteres i en serie af omhyggeligt udformede retter, der
-                anvender lokale og<span id="dots6">...</span
+                Restaurant Caelis er en gastronomisk restaurant beliggende i det
+                historiske kvarter i Barcelona, Spanien. Denne restaurant er
+                kendt for sit innovative franske køkken, som præsenteres i en
+                serie af omhyggeligt udformede retter, der anvender lokale
+                og<span id="dots6">...</span
                 ><span id="mere6">
-                  friske ingredienser. Caelis har en Michelin-stjerne og tilbyder både à la carte-menu og en tæt og personlig oplevelse på en 8-retters sæsonmenu. Restaurantens smukke og elegante indretning er et godt match til det raffinerede køkken
-                  og giver en fornemmelse af luksus og eksklusivitet. Caelis har også et omfattende vinkort, der supplerer menuen, og gæsterne kan forvente sig en af de mest spektakulære gastronomiske oplevelser i Barcelona.</span
-                ><button onclick="myFunction6()" id="læsmereknap6">Læs mere</button>
+                  friske ingredienser. Caelis har en Michelin-stjerne og
+                  tilbyder både à la carte-menu og en tæt og personlig oplevelse
+                  på en 8-retters sæsonmenu. Restaurantens smukke og elegante
+                  indretning er et godt match til det raffinerede køkken og
+                  giver en fornemmelse af luksus og eksklusivitet. Caelis har
+                  også et omfattende vinkort, der supplerer menuen, og gæsterne
+                  kan forvente sig en af de mest spektakulære gastronomiske
+                  oplevelser i Barcelona.</span
+                ><button onclick="myFunction6()" id="læsmereknap6">
+                  Læs mere
+                </button>
               </p>
             </div>
           </div>
@@ -137,15 +202,28 @@
             <div class="s2_media3">
               <h2>Disfrutar</h2>
               <p>
-                Restaurant Disfrutar i Barcelona, Spanien, er en Michelin-stjerne restaurant og en af de mest anerkendte og innovative kulinariske destinationer i verden. Restauranten er et samarbejde mellem tre kokke, der alle er tidligere
+                Restaurant Disfrutar i Barcelona, Spanien, er en
+                Michelin-stjerne restaurant og en af de mest anerkendte og
+                innovative kulinariske destinationer i verden. Restauranten er
+                et samarbejde mellem tre kokke, der alle er tidligere
                 elBulli-kokke, og de har
                 <span id="dots7">...</span
                 ><span id="mere7"
-                  >sammen skabt en unik og kreativ spiseoplevelse. Disfrutar har et åbent køkken, der tillader gæsterne at se, hvordan de forskellige retter tilberedes. Restauranten tilbyder en række forskellige smagsoplevelser, hvoraf de fleste er
-                  baseret på lokale råvarer og katalansk kogekunst. Deres menu er præget af mange små retter, der er smukt præsenteret og serveret i en imponerende rækkefølge. Restauranten er kendt for sine innovative teknikker og anvendelse af
-                  overraskende ingredienser i deres retter, deres kreativitet er enestående. Besøgende til Disfrutar vil sætte pris på den unikke og innovative madoplevelse, og det er et must-visit for alle, der er interesserede i gastronomi og
-                  kreativ madlavning.</span
-                ><button onclick="myFunction7()" id="læsmereknap7">Læs mere</button>
+                  >sammen skabt en unik og kreativ spiseoplevelse. Disfrutar har
+                  et åbent køkken, der tillader gæsterne at se, hvordan de
+                  forskellige retter tilberedes. Restauranten tilbyder en række
+                  forskellige smagsoplevelser, hvoraf de fleste er baseret på
+                  lokale råvarer og katalansk kogekunst. Deres menu er præget af
+                  mange små retter, der er smukt præsenteret og serveret i en
+                  imponerende rækkefølge. Restauranten er kendt for sine
+                  innovative teknikker og anvendelse af overraskende
+                  ingredienser i deres retter, deres kreativitet er enestående.
+                  Besøgende til Disfrutar vil sætte pris på den unikke og
+                  innovative madoplevelse, og det er et must-visit for alle, der
+                  er interesserede i gastronomi og kreativ madlavning.</span
+                ><button onclick="myFunction7()" id="læsmereknap7">
+                  Læs mere
+                </button>
               </p>
             </div>
           </div>

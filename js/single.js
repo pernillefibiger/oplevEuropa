@@ -1,32 +1,51 @@
-// const urlParams = new URLSearchParams(window.location.search);
-// const by = urlParams.get("byer");
+const urlParams = new URLSearchParams(window.location.search);
+const byNavn = urlParams.get("by");
 
-// const url = "json/oplevelser.json";
-// const url2 = "json/restauranter.json";
-// const url3 = "json/byer.json";
+const url = "json/byer.json";
+async function hentData() {
+  fetch(url)
+    .then((ressponse) => ressponse.json())
+    .then(visBy);
+}
+const main = document.querySelector("#forside_beskrivendetekst");
+const template = document.querySelector(".template1").content;
 
-// console.log("hej");
+function visBy(by) {
+  by.forEach((by) => {
+    console.log("function");
+    if (by.Byer == byNavn) {
+      const klon = template.cloneNode(true);
+      klon.querySelector("#forside_h1").textContent = by.Byer;
+      klon.querySelector(".single_kortforklaring").textContent = by.Generelt;
+      main.appendChild(klon);
+    }
+  });
+}
 
-// async function hentData() {
-//   console.log("hentData");
-//   fetch(url)
-//     .then((ressponse) => ressponse.json())
-//     .then(visByen);
-//   fetch(url2)
-//     .then((ressponse) => ressponse.json())
-//     .then(visByen);
-//   fetch(url3)
-//     .then((ressponse) => ressponse.json())
-//     .then(visByen);
-// }
+hentData();
 
-// function visByen(byen) {
-//   console.log("function");
-//   if (byen.Byer == by) {
-//     document.querySelector("#forside_h1").textContent = byen.Byer;
-//     document.querySelector(".single_kortforklaring").textContent =
-//       byen.Generelt;
-//   }
-// }
+// seværdigheder
 
-// hentData();
+async function hentOplevelse() {
+  fetch("../json/oplevelser.json")
+    .then((ressponse) => ressponse.json())
+    .then(visOplevelse);
+}
+const main2 = document.querySelector(".single_popular_tekst");
+const template2 = document.querySelector(".template2").content;
+
+function visOplevelse(oplevelse) {
+  oplevelse.forEach((oplevelse) => {
+    console.log("function");
+    if (oplevelse.By == byNavn) {
+      const klonOplevelse = template2.cloneNode(true);
+      klonOplevelse.querySelector(".single_stortbillede").src =
+        "images/../seværdigheder" + oplevelse.Images;
+      klonOplevelse.querySelector("p").textContent = oplevelse.Beskrivelse;
+      klonOplevelse.querySelector("h2").textContent = oplevelse.Navn;
+      main2.appendChild(klonOplevelse);
+    }
+  });
+}
+
+hentOplevelse();
