@@ -27,6 +27,7 @@ function visBy(by) {
       klon.querySelector(".overskrift").textContent = by.Lande;
       klon.querySelector("#by1-h3").textContent = by.Byer;
       klon.querySelector("#by1-generelt").textContent = by.Generelt;
+      klon.querySelector("a").href = "single1.html?by=" + by.Byer;
       main.appendChild(klon);
     }
   });
