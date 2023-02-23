@@ -186,3 +186,115 @@ h2 {
   color: blue;
   font-family: centra-book;
 }
+
+@media (max-width: 700px) {
+  .single_kortforklaring {
+    margin-left: 0;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  .single_kortforklaring {
+    font-size: 17px;
+  }
+
+  .single_popular_tekst {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3em;
+  }
+
+  .single_popular_tekst img {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .single_rest {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3em;
+  }
+
+  .single_rest img {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media (max-width: 650px) {
+  .single_popular_tekst {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+
+  .single_popular_tekst img {
+    margin-top: 5%;
+    width: 30vw;
+    height: 35vw;
+  }
+
+  #single_h2 {
+    font-size: 22px;
+  }
+
+  #single_2_h2 {
+    font-size: 22px;
+  }
+
+  .single_img1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .single_popular_tekst p {
+    padding-right: 1.5em;
+  }
+
+  .single_img2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .single_img3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .rest1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .rest2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .single_rest img {
+    margin-top: 5%;
+    width: 30vw;
+    height: 35vw;
+  }
+
+  .rest3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .single_rest p {
+    padding-right: 1.5em;
+  }
+
+  .single_rest {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+}

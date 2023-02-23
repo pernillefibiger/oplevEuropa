@@ -46,19 +46,30 @@ nav {
   .menu.active {
     display: flex;
     flex-direction: column;
-    background-color: #42649a96;
     position: absolute;
     top: 60px;
     left: 0;
     right: 0;
     gap: 10px;
     z-index: 100;
+    text-align: right;
   }
   .subscribe {
     margin-bottom: 10px;
+    background: none;
+    border: none;
   }
   .logo img {
     width: 60%;
     margin-left: 20%;
+  }
+
+  .subscribe:hover {
+    background: none;
+    border: none;
+  }
+
+  .menu li a:hover {
+    color: black;
   }
 }
