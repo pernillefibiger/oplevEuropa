@@ -27,7 +27,7 @@ hentData();
 // seværdigheder
 
 async function hentOplevelse() {
-  fetch("../json/oplevelser.json")
+  fetch("json/oplevelser.json")
     .then((ressponse) => ressponse.json())
     .then(visOplevelse);
 }
@@ -52,7 +52,7 @@ hentOplevelse();
 
 // restauranter
 async function hentRestaurant() {
-  fetch("../json/restauranter.json")
+  fetch("json/restauranter.json")
     .then((ressponse) => ressponse.json())
     .then(visRestaurant);
 }

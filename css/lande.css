@@ -10,7 +10,7 @@
   font-family: centra-medium;
 }
 .lande {
-  background-image: url(/images/nybaggrund.webp);
+  background-image: url("../images/nybaggrund.webp");
   background-size: 100%;
   position: sticky;
 }
