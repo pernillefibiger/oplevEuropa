@@ -40,7 +40,7 @@ function visOplevelse(oplevelse) {
     if (oplevelse.By == byNavn) {
       const klonOplevelse = template2.cloneNode(true);
       klonOplevelse.querySelector(".single_stortbillede").src =
-        "images/../seværdigheder" + oplevelse.Images;
+        "images/" + oplevelse.Images;
       klonOplevelse.querySelector("p").textContent = oplevelse.Beskrivelse;
       klonOplevelse.querySelector("h2").textContent = oplevelse.Navn;
       main2.appendChild(klonOplevelse);
@@ -49,3 +49,28 @@ function visOplevelse(oplevelse) {
 }
 
 hentOplevelse();
+
+// restauranter
+async function hentRestaurant() {
+  fetch("../json/restauranter.json")
+    .then((ressponse) => ressponse.json())
+    .then(visRestaurant);
+}
+const main3 = document.querySelector(".single_rest");
+const template3 = document.querySelector(".template3").content;
+
+function visRestaurant(restaurant) {
+  restaurant.forEach((restaurant) => {
+    console.log("function");
+    if (restaurant.By == byNavn) {
+      const klonRestaurant = template3.cloneNode(true);
+      klonRestaurant.querySelector(".single_stortbillede").src =
+        "images/" + restaurant.Images;
+      klonRestaurant.querySelector("p").textContent = restaurant.Beskrivelse;
+      klonRestaurant.querySelector("h2").textContent = restaurant.Navn;
+      main3.appendChild(klonRestaurant);
+    }
+  });
+}
+
+hentRestaurant();
