@@ -31,9 +31,9 @@
 
 .single_popular_tekst {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
   padding-bottom: 3em;
-  padding-left: 7em;
+  padding-left: 2em;
 }
 
 .single_popular_tekst p,
@@ -60,7 +60,7 @@ h2 {
 #single_h2 {
   font-family: centra-medium;
   font-size: 30px;
-  padding: 5% 0 3% 5%;
+  padding: 5% 0 3% 3%;
 }
 
 .single_kortforklaring {
@@ -131,10 +131,9 @@ h2 {
 
 .single_rest {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
-
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
   padding-bottom: 3em;
-  padding-left: 7em;
+  padding-left: 2em;
 }
 
 .single_rest img {
@@ -148,7 +147,7 @@ h2 {
 #single_2_h2 {
   font-family: centra-medium;
   font-size: 30px;
-  padding: 5% 0 3% 5%;
+  padding: 5% 0 3% 3%;
 }
 
 .single_rest p {
