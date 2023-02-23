@@ -1,10 +1,10 @@
 @font-face {
   font-family: centra-medium;
-  src: url(/fonts/CentraNo2-Medium.ttf);
+  src: url(../fonts/CentraNo2-Medium.ttf);
 }
 @font-face {
   font-family: centra-light;
-  src: url(/fonts/CentraNo2-Light.ttf);
+  src: url(../fonts/CentraNo2-Light.ttf);
 }
 .Kort h2 {
   font-family: centra-medium;
