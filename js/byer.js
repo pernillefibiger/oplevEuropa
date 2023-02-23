@@ -1,30 +1,35 @@
-const url = "https://opleveuropa-c5da.restdb.io/rest/byer";
+// const url = "https://opleveuropa-c5da.restdb.io/rest/lande";
+const urlParams = new URLSearchParams(window.location.search);
+const land = urlParams.get("land");
 
-const options = {
-  headers: {
-    "x-apikey": "63f67bf1478852088da6856e",
-  },
-};
+const url = "json/byer.json";
+// const options = {
+//   headers: {
+//     "x-apikey": "63f67bf1478852088da6856e",
+//   },
+// };
 
 async function hentData() {
-  console.log("hentData");
-  const respons = await fetch(url, options);
-  const json = await respons.json();
-  vis(json);
-  json.forEach(vis);
+  fetch(url)
+    .then((ressponse) => ressponse.json())
+    .then(visBy);
 }
 
-const main = document.querySelector(".by-main");
+const main = document.querySelector("#grid_1-1");
 const template = document.querySelector("template").content;
 
-function vis(byer) {
-  console.log("function");
-  const klon = template.cloneNode(true);
-  klon.querySelector("#by-img1").src = "images/" + byer.Images;
-  klon.querySelector(".overskrift").textContent = byer.Lande;
-  klon.querySelector("#by1-h3").textContent = byer.Byer;
-  klon.querySelector("#by1-generelt").textContent = byer.Byer;
-  main.appendChild(klon);
+function visBy(by) {
+  by.forEach((by) => {
+    console.log("function");
+    if (by.Lande == land) {
+      const klon = template.cloneNode(true);
+      klon.querySelector("#by-img1").src = "images/" + by.Images;
+      klon.querySelector(".overskrift").textContent = by.Lande;
+      klon.querySelector("#by1-h3").textContent = by.Byer;
+      klon.querySelector("#by1-generelt").textContent = by.Generelt;
+      main.appendChild(klon);
+    }
+  });
 }
 
 hentData();
