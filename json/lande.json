@@ -7,7 +7,7 @@
     "_createdby": "pernillebundesen@yahoo.com",
     "_changedby": "katj6533@stud.kea.dk",
     "_version": 7,
-    "images": "koebenhavn.jpg"
+    "images": "koebenhavn.webp"
   },
   {
     "_id": "63ef549562144c690002176e",
@@ -17,7 +17,7 @@
     "_createdby": "pernillebundesen@yahoo.com",
     "_changedby": "pernillebundesen@yahoo.com",
     "_version": 3,
-    "images": "hamborg.jpg"
+    "images": "hamborg.webp"
   },
   {
     "_id": "63ef54a062144c6900021772",
@@ -27,7 +27,7 @@
     "_createdby": "pernillebundesen@yahoo.com",
     "_changedby": "pernillebundesen@yahoo.com",
     "_version": 3,
-    "images": "amsterdam.jpg"
+    "images": "amsterdam.webp"
   },
   {
     "_id": "63ef54b362144c6900021776",
@@ -37,7 +37,7 @@
     "_createdby": "pernillebundesen@yahoo.com",
     "_changedby": "pernillebundesen@yahoo.com",
     "_version": 3,
-    "images": "paris.jpg"
+    "images": "paris.webp"
   },
   {
     "_id": "63ef548f62144c690002176c",
@@ -47,7 +47,7 @@
     "_createdby": "pernillebundesen@yahoo.com",
     "_changedby": "pernillebundesen@yahoo.com",
     "_version": 3,
-    "images": "rom.jpg"
+    "images": "rom.webp"
   },
   {
     "_id": "63ef54c262144c6900021779",
@@ -57,7 +57,7 @@
     "_createdby": "pernillebundesen@yahoo.com",
     "_changedby": "pernillebundesen@yahoo.com",
     "_version": 3,
-    "images": "lissabon.jpg"
+    "images": "lissabon.webp"
   },
   {
     "_id": "63ef549a62144c6900021770",
@@ -67,6 +67,6 @@
     "_createdby": "pernillebundesen@yahoo.com",
     "_changedby": "pernillebundesen@yahoo.com",
     "_version": 3,
-    "images": "barcelona.jpg"
+    "images": "barcelona.webp"
   }
 ]
