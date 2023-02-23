@@ -28,6 +28,7 @@ function visBy(by) {
       klon.querySelector("#by1-h3").textContent = by.Byer;
       klon.querySelector("#by1-generelt").textContent = by.Generelt;
       klon.querySelector("a").href = "single1.html?by=" + by.Byer;
+      klon.querySelector(".læs-mere").href = "single1.html?by=" + by.Byer;
       main.appendChild(klon);
     }
   });
