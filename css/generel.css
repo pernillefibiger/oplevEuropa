@@ -3,6 +3,10 @@
   src: url(/fonts/CentraNo2-Medium.ttf);
 }
 
+body {
+  margin: 0;
+}
+
 /* NAV */
 
 nav {

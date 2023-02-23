@@ -11,7 +11,7 @@
 }
 .lande {
   background-image: url(/images/nybaggrund.webp);
-  background-size: cover;
+  background-size: 100%;
   position: sticky;
 }
 
@@ -23,7 +23,7 @@
   margin-top: -10%;
   border-radius: 25px;
 }
-header h1 {
+/* header h1 {
   color: #f4f4f48b;
   padding-left: 10%;
   padding-right: 3%;
@@ -31,12 +31,12 @@ header h1 {
   padding-top: 4%;
 
   font-family: centra-medium;
-}
+} */
 .lande-main {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 15%;
+  margin-top: 28%;
   gap: 2.5rem;
 }
 

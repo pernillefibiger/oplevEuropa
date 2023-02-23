@@ -9,7 +9,7 @@
 
 /* card */
 .card {
-  background-image: url("../images/milano.webp");
+  background-image: url("../images/milano2.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vw;
@@ -106,12 +106,12 @@ textarea:valid ~ label {
   top: -35px;
   font-size: 14px;
 }
-.row {
+.kort_row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.row .input-group {
+.kort_row .input-group {
   flex-basis: 48%;
 }
 
